@@ -98,3 +98,7 @@
     @apply border-border outline-ring/50;
   }
 }
+
+.container-6xl {
+  @apply max-w-6xl w-full mx-auto px-4;
+}

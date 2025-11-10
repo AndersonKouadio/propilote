@@ -8,6 +8,7 @@ export const contentStyle = tv({
       true: "w-full px-0",
     },
     padding: {
+      none: "py-0",
       sm: "py-4",
       md: "py-8",
       lg: "py-16",
