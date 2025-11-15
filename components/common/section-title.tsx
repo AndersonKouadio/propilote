@@ -1,10 +1,11 @@
 import React from 'react';
 import Title from "@/components/primitives/Title";
+import {cn} from "@/lib/utils";
 
-function SectionTitle({children}: {children: React.ReactNode}) {
+function SectionTitle({children, className}: {children: React.ReactNode, className?: string}) {
 	return (
 		<>
-			<div className="relative">
+			<div className={cn("relative", className)}>
 				<Title level={2} className="text-primary font-extralight">
 					{children}
 				</Title>
