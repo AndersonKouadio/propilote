@@ -1,19 +1,11 @@
 import React from 'react';
 import Section from "@/components/primitives/Section";
-import Title from "@/components/primitives/Title";
 import Image from "next/image";
 import StatList from "@/components/(public)/a-propos/stat-list";
 
 function AboutSection() {
 	return (
-		<Section className="relative container-6xl">
-			<div role={"img"} className="absolute top-0 -left-[5%] size-36 md:size-44 opacity-10">
-				<img src="/assets/illustrations/stars.svg" alt="Etoiles Illustration" className="w-full h-full"/>
-			</div>
-			<Title level={2} className="block !text-center text-primary font-extralight">
-				Pionnier de la mobilité intelligente, nous combinons IoT, logiciels et services pour révolutionner la gestion
-				de flotte et optimiser vos déplacements
-			</Title>
+		<Section className="container-6xl">
 			<div className="w-full mt-10 relative overflow-hidden h-[400px] md:h-[500px] rounded-lg shadow-lg">
 				<Image
 					src="/assets/images/about-image.png"

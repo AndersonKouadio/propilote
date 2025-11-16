@@ -4,6 +4,7 @@ import MissionVisionSection from "@/components/(public)/a-propos/mission-vision-
 import AboutSection from "@/components/(public)/a-propos/about-section";
 import ExpertiseSection from "@/components/(public)/a-propos/expertise-section";
 import TeamAboutSection from "@/components/(public)/a-propos/team-about-section";
+import PageDescription from "@/components/common/page-description";
 
 export default async function AboutPage() {
 	return (
@@ -14,6 +15,10 @@ export default async function AboutPage() {
 						A propos de <span className="font-bold">Propilote</span>
 					</>
 				}
+			/>
+			<PageDescription
+				title="Pionnier de la mobilité intelligente, nous combinons IoT, logiciels et services pour révolutionner la gestion
+					de flotte et optimiser vos déplacements"
 			/>
 			<AboutSection/>
 			<MissionVisionSection/>
